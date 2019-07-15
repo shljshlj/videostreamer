@@ -32,6 +32,7 @@ class App extends Component {
         return (
             <div className="ui container">
                 <SearchBar onTermSubmit={this.onTermSubmit} />
+                <code>Runtime env var example: { process.env.REACT_APP_HELLO }</code>
                 <div className="ui grid">
                     <div className="row">
                         <div className="eleven wide column">
